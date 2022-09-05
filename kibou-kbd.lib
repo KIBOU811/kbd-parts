@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LED
+#
+DEF LED J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "LED" 0 125 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+S -100 50 50 -250 0 1 0 N
+S 50 -194 2 -206 0 1 0 N
+S 50 -94 2 -106 0 1 0 N
+S 50 6 2 -6 0 1 0 N
+X ~ 1 150 -200 100 L 50 50 1 1 I
+X ~ 2 150 -100 100 L 50 50 1 1 I
+X ~ 3 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
